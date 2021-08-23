@@ -23,12 +23,17 @@
 .nav-link:hover, .nav-link:focus{
 	color:#FFA286
 }
-.container-fluid button.navbar-toggler{
-	border: 2px solid #FFA286;
-	border-radius: 27px;	
-	
+.nav-link:hover{
+	color:lightcoral !important;
 }
-.container-fluid button.navbar-toggler:hover{
-	background-color: #FFA286;
-	stroke: #FF511C;
+.navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 162, 134, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+button.navbar-toggler{
+	border: 2px solid #FFA286 !important;
+	color:rgba(243, 199, 199, 0.52) !important;
+	border-radius: 27px;
+}
+button.navbar-toggler:hover{
+	background-color: rgba(235, 193, 193, 0.52)	!important;
 }
