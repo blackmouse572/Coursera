@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Warnes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Warnes&family=Work+Sans:wght@500&display=swap');
+
+#brandName{
+	font-family: 'Warnes', cursive;
+	color: #FF511C;
+	font-size: 2rem;
+	padding: 0.2rem 0.3rem 0.2rem 0.5rem;
+	margin-bottom: 0;
+}
+#header-navbar{
+	background-color: #414141;
+}
+.nav-link{
+	font-family: 'Work Sans';
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	margin-left: 0.7rem;
+	font-size: 1.2rem;
+	margin-bottom: 0;
+}
+.nav-link:hover, .nav-link:focus{
+	color:#FFA286
+}
+.container-fluid button.navbar-toggler{
+	border: 2px solid #FFA286;
+	border-radius: 27px;	
+	
+}
+.container-fluid button.navbar-toggler:hover{
+	background-color: #FFA286;
+	stroke: #FF511C;
+}
